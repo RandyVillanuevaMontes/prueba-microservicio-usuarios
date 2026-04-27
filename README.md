@@ -1,14 +1,14 @@
 # Proyecto Microservicio Java, Spring Framework, Docker, Tomcat.
 
-# 1. Limpieza y Compilación Para eliminar compilaciones anteriores y generar el nuevo archivo `.jar` / `.war`:
+# 1. Limpiar el Proyecto de compilaciones anteriores.
 ``` mvn clean package 
 ```
 
-# 2. Construir y levantar (Primera vez o cambios), crea la imagen desde el Dockerfile y levanta el servicio:
+# 2. Construir la imagen y levantar el servicio al mismo tiempo.
 ```docker-compose up --build
 ```
 
-# 3. Solo levantar el servicio e iniciar los contenedores ya existentes:.
+# 3. Solo levantar el servicio.
 ```docker-compose up
 ```
 
