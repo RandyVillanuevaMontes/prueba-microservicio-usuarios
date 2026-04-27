@@ -1,0 +1,5 @@
+com\examen\controller\DataController.class
+com\examen\config\AppInitializer.class
+com\examen\repository\DataRepository.class
+com\examen\config\WebConfig.class
+com\examen\service\DataService.class
